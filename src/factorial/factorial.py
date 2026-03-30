@@ -1,31 +1,28 @@
 #!/usr/bin/python
-# *-------------------------------------------------------------------------*
-# * factorial.py                                                            *
-# * calcula el factorial de un número                                       *
-# * Dr.P.E.Colla (c) 2022                                                   *
-# * Creative commons                                                        *
-# *-------------------------------------------------------------------------*
+#*-------------------------------------------------------------------------*
+#* factorial.py                                                            *
+#* calcula el factorial de un número                                       *
+#* Dr.P.E.Colla (c) 2022                                                   *
+#* Creative commons                                                        *
+#*-------------------------------------------------------------------------*
 import sys
-
-
-def factorial(num):
-    if num < 0:
+def factorial(num): 
+    if num < 0: 
         print("Factorial de un número negativo no existe")
         return 0
-    elif num == 0:
+    elif num == 0: 
         return 1
-
-    else:
+        
+    else: 
         fact = 1
-        while (num > 1):
-            fact *= num
+        while(num > 1): 
+            fact *= num 
             num -= 1
-        return fact
+        return fact 
 
+if len(sys.argv) == 0:
+   print("Debe informar un número!")
+   sys.exit()
+num=int(sys.argv[1])
+print("Factorial ",num,"! es ", factorial(num)) 
 
-if len(sys.argv) < 2:
-    num = int(input("Debe informar un número: "))
-else:
-    num = int(sys.argv[1])
-
-print("Factorial", num, "! es", factorial(num))
