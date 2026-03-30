@@ -21,6 +21,7 @@ def factorial(num):
             num -= 1
         return fact
 
+#procesa el rango ingresado manualmente.
 def procesar_rango(rango_str):
     try:
         # Caso "-hasta"
@@ -39,6 +40,7 @@ def procesar_rango(rango_str):
         print("Formato inválido. Use desde-hasta, -hasta o desde-")
         sys.exit()
 
+#si no se ingresa el rango por línea de comandos, se solicita al usuario que lo ingrese manualmente.
 if len(sys.argv) < 2:
     rango_str = input("Debe informar un rango (ej: 4-8, -10, 5-): ")
 else:
@@ -46,6 +48,6 @@ else:
 
 desde, hasta = procesar_rango(rango_str)
 
-
+#calcula el factorial para cada número en el rango y lo imprime.
 for num in range(desde, hasta + 1):
     print(f"Factorial {num}! es {factorial(num)}")

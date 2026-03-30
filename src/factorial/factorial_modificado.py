@@ -7,7 +7,6 @@
 # *-------------------------------------------------------------------------*
 import sys
 
-
 def factorial(num):
     if num < 0:
         print("Factorial de un número negativo no existe")
@@ -22,7 +21,7 @@ def factorial(num):
             num -= 1
         return fact
 
-
+#solicita al usuario que ingrese un número si no se proporciona por línea de comandos.
 if len(sys.argv) < 2:
     num = int(input("Debe informar un número: "))
 else:

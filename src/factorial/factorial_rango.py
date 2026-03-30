@@ -21,6 +21,7 @@ def factorial(num):
             num -= 1
         return fact
 
+#procesa el rango ingresado manualmente y lo convierte en valores enteros para el rango de números a calcular.
 def procesar_rango(rango_str):
     try:
         desde, hasta = rango_str.split("-")
@@ -38,5 +39,6 @@ else:
 
 desde, hasta = procesar_rango(rango_str)
 
+#calcula el factorial de los números comprendidos en el rango insertado.
 for num in range(desde, hasta + 1):
     print(f"Factorial {num}! es {factorial(num)}")
