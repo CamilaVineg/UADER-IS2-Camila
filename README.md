@@ -36,5 +36,10 @@ El repositorio está estructurado en carpetas y archivos que representan distint
    pip install matplotlib
    ```
 
+--- 
+
 ![Un tierno robot saludando.](https://i.pinimg.com/736x/6d/dc/3f/6ddc3f9a79c891e0efd6042624e08f51.jpg)
+
+---
+
 Desde aquí puedes descargar [Python](https://www.python.org/)
