@@ -1,0 +1,14 @@
+************* Module rpn
+rpn.py:325:0: C0304: Final newline missing (missing-final-newline)
+rpn.py:26:4: W0107: Unnecessary pass statement (unnecessary-pass)
+rpn.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
+rpn.py:45:0: C0116: Missing function or method docstring (missing-function-docstring)
+rpn.py:54:0: C0116: Missing function or method docstring (missing-function-docstring)
+rpn.py:67:0: C0116: Missing function or method docstring (missing-function-docstring)
+rpn.py:67:0: R0912: Too many branches (34/12) (too-many-branches)
+rpn.py:67:0: R0915: Too many statements (92/50) (too-many-statements)
+rpn.py:288:0: C0116: Missing function or method docstring (missing-function-docstring)
+rpn.py:317:11: W0718: Catching too general exception Exception (broad-exception-caught)
+
+-----------------------------------
+Your code has been rated at 9.22/10

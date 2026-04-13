@@ -1,0 +1,8 @@
+************* Module rpn
+rpn.py:25:4: W0107: Unnecessary pass statement (unnecessary-pass)
+rpn.py:68:0: R0912: Too many branches (34/12) (too-many-branches)
+rpn.py:68:0: R0915: Too many statements (92/50) (too-many-statements)
+rpn.py:319:11: W0718: Catching too general exception Exception (broad-exception-caught)
+
+------------------------------------------------------------------
+Your code has been rated at 9.69/10 (previous run: 9.69/10, +0.00)
